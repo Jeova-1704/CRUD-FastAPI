@@ -6,7 +6,7 @@ import service
 
 router = APIRouter()
 
-async def get_db():
+def get_db():
     db = sessionLocal()
     try:
         yield db
