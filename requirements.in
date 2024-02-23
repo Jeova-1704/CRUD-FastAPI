@@ -1,0 +1,6 @@
+sqlalchemy
+fastapi
+typing
+pydantic
+uvicorn
+dynaconf
